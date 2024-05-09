@@ -1,0 +1,16 @@
+@for (item of empleados.results; track item) {
+   
+  <div class="container mt-3 d-flex justify-content-center align-items-center" style="height: 100vh;">
+    <div class="card" style="width:400px; background-color: black;">
+      <img class="card-img-top" src="{{item.picture.medium}}" alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title">{{item.name.title}}. {{item.name.first}} {{item.name.last}}</h4>
+        <p class="card-text">Ciudad: {{item.location.country}}</p>
+        <p class="card-text">Email: {{item.email}}</p>
+        <p class="card-text">Teléfono: {{item.phone}}</p>
+      </div>
+    </div>
+  </div>
+}
+
+ 

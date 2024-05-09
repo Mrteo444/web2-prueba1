@@ -1,0 +1,50 @@
+{
+  "autos": [
+    {
+      "id": 1,
+      "placa": "ABC123",
+      "marca": "Toyota",
+      "color": "Rojo",
+      "imagen": "toyota.jpg",
+      "ano": 2020,
+      "precio": 25000
+    },
+    {
+      "id": 2,
+      "placa": "XYZ456",
+      "marca": "Honda",
+      "color": "Azul",
+      "imagen": "honda.jpg",
+      "ano": 2018,
+      "precio": 20000
+    },
+    {
+      "id": 3,
+      "placa": "DEF789",
+      "marca": "Ford",
+      "color": "Negro",
+      "imagen": "ford.jpg",
+      "ano": 2019,
+      "precio": 22000
+    },
+    {
+      "id": 4,
+      "placa": "GHI012",
+      "marca": "Chevrolet",
+      "color": "Blanco",
+      "imagen": "chevrolet.jpg",
+      "ano": 2021,
+      "precio": 28000
+    },
+    {
+      "id": 5,
+      "placa": "JKL345",
+      "marca": "BMW",
+      "color": "Gris",
+      "imagen": "bmw.jpg",
+      "ano": 2017,
+      "precio": 30000
+    }
+    
+  ]
+}

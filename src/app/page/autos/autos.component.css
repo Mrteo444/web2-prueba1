@@ -1,0 +1,24 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .gallery-item {
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .info {
+    margin-top: 10px;
+  }
+  
+  .actions button {
+    margin-right: 5px;
+  }
